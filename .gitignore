@@ -1,0 +1,37 @@
+# -------------------
+# Python
+# -------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+env/
+venv/
+ENV/
+.venv/
+
+# -------------------
+# Editor & IDE
+# -------------------
+.vscode/
+.idea/
+*.swp
+
+# -------------------
+# Operating System
+# -------------------
+.DS_Store
+Thumbs.db
+
+# -------------------
+# Node (if you add npm packages for the frontend)
+# -------------------
+node_modules/
+
+# -------------------
+# Logs
+# -------------------
+*.log
