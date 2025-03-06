@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pathfinding Visualization</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="controls">
+    <label for="start-select">Start Node:</label>
+    <select id="start-select"></select>
+
+    <label for="goal-select">Goal Node:</label>
+    <select id="goal-select"></select>
+
+    <label for="algo-select">Algorithm:</label>
+    <select id="algo-select">
+      <option value="bfs">BFS</option>
+      <option value="dijkstra">Dijkstra</option>
+      <option value="astar">A*</option>
+    </select>
+
+    <button id="compute-btn">Compute Path</button>
+  </div>
+
+  <canvas id="graph-canvas" width="600" height="400"></canvas>
+
+  <div id="result"></div>
+
+  <script src="main.js"></script>
+</body>
+</html>
